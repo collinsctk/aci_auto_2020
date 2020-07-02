@@ -1,0 +1,17 @@
+{
+    "tenant": "ZCCIEDC",
+    "vrf": "ZVRF-1",
+    "VRFMODE": "unrestricted",
+    "domain" : "ZPhyDomain",
+    "pool_name": "ZvlanPool",
+    "pool_start": "201",
+    "pool_end": "250",
+    "pool_encap_type": "vlan",
+    "pool_mode": "static",
+    "bd_prefix": "ZBD",
+    "epg_prefix": "ZEPG",
+    "ap": "ZAPP",
+    "url": "https://10.1.1.151",
+    "login": "admin",
+    "password": "Cisco!123"
+}
