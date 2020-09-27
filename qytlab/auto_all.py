@@ -38,4 +38,4 @@ def main():
 if __name__ == "__main__":
     # del_application_profile(tenant, ap)
     # print('deleted old ap')
-    main() ###
+    main()
