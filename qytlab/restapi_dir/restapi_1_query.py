@@ -101,10 +101,10 @@ def tenant_children_show(ip, tenant_name):
 
 if __name__ == '__main__':
     # pprint_json(query_tenants(apic_host))
-    tenants_show(apic_host)
-    # pprint_json(tenant_show(apic_host, "Heroes"))
-    # pprint_json(search_by_dn(apic_host, "uni/tn-Heroes/ap-Save_The_Planet/epg-app"))
-    # pprint_json(search_by_dn(apic_host, "uni/tn-Heroes/ap-Save_The_Planet/epg-web"))
-    # pprint_json(search_by_dn_filter(apic_host, "uni/tn-Heroes", '?query-target=children'))
-    # pprint_json(tenant_children_show(apic_host, "Heroes"))
+    # tenants_show(apic_host)
+    # pprint_json(tenant_show(apic_host, "QYTangT1"))
+    # pprint_json(search_by_dn(apic_host, "uni/tn-QYTangT1/ap-QYTang-ANP/epg-DJANGO"))
+    # pprint_json(search_by_dn(apic_host, "uni/tn-QYTangT1/ap-QYTang-ANP/epg-PSQL"))
+    # pprint_json(search_by_dn_filter(apic_host, "uni/tn-QYTangT1", '?query-target=children'))
+    pprint_json(tenant_children_show(apic_host, "QYTangT1"))
 
