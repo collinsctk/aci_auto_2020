@@ -10,7 +10,8 @@ def create_tenant(tenant_name):
 
     tenant = Tenant(tenant_name)
 
-    resp = tenant.push_to_apic(session)
+    # resp = tenant.push_to_apic(session)
+    resp = session.push_to_acpi(tenant.get_url(), data=tenant.get_json())
     if not resp.ok:
         print('%% Error: Could not push configuration to APIC')
         print(resp.text)

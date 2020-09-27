@@ -1,6 +1,7 @@
 from qytlab.acitoolkit_dir.conf import config_data
 from qytlab.acitoolkit_dir.create_application_profile import create_application_profile
 from qytlab.acitoolkit_dir.del_application_profile import del_application_profile
+from qytlab.acitoolkit_dir.del_tenant import del_tenant
 from qytlab.acitoolkit_dir.create_epg import create_epg
 from qytlab.acitoolkit_dir.attach_epg_contract import attach_epg_contract
 from qytlab.restapi_dir.restapi_3_vm_domain_association import epg_domain_association
